@@ -1,10 +1,11 @@
 
-const Section = ({ children, corFundo, altura, espacamento }) => {
+const Section = ({ children, corFundo, altura, espacamento, modeloCaixa }) => {
 
   const style = `
     ${corFundo}
     ${altura}
     ${espacamento}
+    ${modeloCaixa}
   `;
 
   return (

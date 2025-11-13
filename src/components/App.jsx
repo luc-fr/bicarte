@@ -73,8 +73,11 @@ function App() {
           corFundo='bg-black'
           altura='h-[37.5rem]'
           espacamento='px-50'
+          modeloCaixa='flex'
         >
-          <Box>
+          <Box
+            largura='w-[50%]'
+          >
             <Heading>
               <Drawer />
             </Heading>
