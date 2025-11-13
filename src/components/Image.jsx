@@ -1,5 +1,5 @@
 
-const Image = () => {
+const Image = ({ fonte }) => {
 
   const style = `
 
@@ -7,7 +7,7 @@ const Image = () => {
 
   return (
     <>
-      <img src="" alt="" />
+      <img src={fonte} alt="" />
     </>
   );
 }

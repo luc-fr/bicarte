@@ -1,13 +1,13 @@
 
-const Box = ({ children }) => {
+const Box = ({ children, largura }) => {
 
   const style = `
-
+    ${largura}
   `;
 
   return (
     <>
-      <div>{children}</div>
+      <div className={style}>{children}</div>
     </>
   );
 }
