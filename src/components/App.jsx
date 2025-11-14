@@ -74,7 +74,8 @@ function App() {
         >
           <Box largura="w-[50%]">
             <Heading>
-              Bicicletas feitas sob medida<Drawer texto='.' corTexto='text-yellow-500' />
+              Bicicletas feitas sob medida
+              <Drawer texto="." corTexto="text-yellow-500" />
             </Heading>
             <Paragraph />
             <Button />
