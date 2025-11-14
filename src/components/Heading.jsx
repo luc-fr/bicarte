@@ -1,15 +1,14 @@
-
-const Heading = ({ children }) => {
-
+const Heading = ({ children, tamanhoFonte, pesoFonte }) => {
   const style = `
-
+    ${tamanhoFonte}
+    ${pesoFonte}
   `;
 
   return (
     <>
-      <h1>{children}</h1>
+      <h1 className={style}>{children}</h1>
     </>
   );
-}
+};
 
 export default Heading;

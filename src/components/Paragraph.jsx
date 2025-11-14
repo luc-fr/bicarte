@@ -1,5 +1,5 @@
 
-const Paragraph = () => {
+const Paragraph = ({texto}) => {
 
   const style = `
 
@@ -7,7 +7,7 @@ const Paragraph = () => {
 
   return (
     <>
-      <p></p>
+      <p>{texto}</p>
     </>
   );
 }

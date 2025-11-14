@@ -66,18 +66,18 @@ function App() {
       </Header>
       <Main>
         <Section
-          corFundo="bg-black"
-          corTexto="text-white"
-          altura="h-[37.5rem]"
-          espacamento="px-50"
-          modeloCaixa="flex"
+          corFundo='bg-black'
+          corTexto='text-white'
+          altura='h-[37.5rem]'
+          espacamento='px-50'
+          modeloCaixa='flex'
         >
           <Box largura="w-[50%]">
-            <Heading>
+            <Heading tamanhoFonte="text-[4rem]" pesoFonte="font-bold">
               Bicicletas feitas sob medida
               <Drawer texto="." corTexto="text-yellow-500" />
             </Heading>
-            <Paragraph />
+            <Paragraph texto="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft." />
             <Button />
           </Box>
           <Box largura="w-[50%]">
