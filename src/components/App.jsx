@@ -67,13 +67,14 @@ function App() {
       <Main>
         <Section
           corFundo="bg-black"
+          corTexto="text-white"
           altura="h-[37.5rem]"
           espacamento="px-50"
           modeloCaixa="flex"
         >
           <Box largura="w-[50%]">
             <Heading>
-              <Drawer />
+              Bicicletas feitas sob medida<Drawer texto='.' corTexto='text-yellow-500' />
             </Heading>
             <Paragraph />
             <Button />
